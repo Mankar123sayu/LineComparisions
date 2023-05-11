@@ -8,8 +8,11 @@ namespace LineComparisions
            // Comparision Project = new Comparision();
             //Project.LengthOfLine();
 
+            //Comparision comparision = new Comparision();
+           // comparision.EqualityCheck(10,10.8 );
+
             Comparision comparision = new Comparision();
-            comparision.EqualityCheck(10,10.8 );
+            comparision.Compair(10,10.8);
         }
     }
 }
