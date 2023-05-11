@@ -26,5 +26,16 @@ namespace LineComparisions
             double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
             Console.WriteLine(result);
         }
+        public void EqualityCheck(double line1, double line2)
+        {
+            if (line1.Equals(line2))
+            {
+                Console.WriteLine("Both line1 and line2 are equal.");
+            }
+            else
+            {
+                Console.WriteLine("Line1 and line2 are not equal.");
+            }
+        }
     }
 }
